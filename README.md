@@ -3,7 +3,7 @@ iMAP: integrative MApping of Pleiotropic association
 ========================================================================================================
 # Introduction
 
-**iMAP** is 
+**iMAP** is a method which performs integrative mapping of pleiotropic association and functional annotations using mixture models and penalized approaches. Specifically, iMAP directly models summary statistics from GWASs, uses a multivariate Gaussian distribution to account for phenotypic correlation between traits, simultaneously infers genome-wide SNP association pattern using mixture modeling, and has the potential to reveal causal relationship between traits. Importantly, iMAP can integrate a large number of binary and continuous SNP functional annotations to substantially improve association mapping power, and, with a sparsity-inducing penalty term, is capable of selecting informative annotations from a large, potentially noninformative set. To enable scalable inference of iMAP to association studies with hundreds of thousands of individuals and millions of SNPs, we further develop an efficient expectation maximization algorithm based on a recently proposed approximation algorithm for penalized regression.
 
 # 
 
