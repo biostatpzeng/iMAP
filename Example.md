@@ -20,3 +20,23 @@ iMAP=function(
 	
 	         # if FALSE, only estimate annotation coefficients.
 	)  {
+
+## No annotations are incorporated
+n=c(10000,10000)
+
+datx=read.table("zvalue.txt",sep=""),sep='\t',header=T)
+
+Zvalue=datx[,c(4,6)]
+
+Var   =datx[,c(5,7)]
+
+infor =datx[,1:3]
+
+fit   =iMAP(Zvalue,Var=Var,infor=infor,n=n,LSA=FALSE)
+
+
+
+
+
+
+
