@@ -24,7 +24,7 @@ iMAP <- function(
 ## No annotations are incorporated
 n <-  c(10000,10000)
  
-datx <-  read.table("zvalue.txt", sep='\t', header=T)
+datx   <-  read.table("zvalue.txt", sep='\t', header=T)
 
 Zvalue <-  datx[,c(4,6)]
 
@@ -32,17 +32,17 @@ Var    <-  datx[,c(5,7)]
 
 infor  <-  datx[,1:3]
 
-fit0    <-  iMAP(Zvalue,Var=Var,infor=infor,n=n,LSA=FALSE)
+fit0   <-  iMAP(Zvalue,Var=Var,infor=infor,n=n,LSA=FALSE)
 
 ## Four annotations are incorporated
 
-x1  <- read.table("annotation.txt",sep="\t",header=F)
+x1    <- read.table("annotation.txt", sep="\t", header=F)
 
-annox <- apply(x1,2,scale)
+annox <- apply(x1, 2, scale)
 
-fit <- iMAP(Zvalue,anno=annox,Var=Var,infor=infor,n=n,LSA=FALSE)
+fit   <- iMAP(Zvalue, anno=annox, Var=Var, infor=infor, n=n, LSA=FALSE)
 
 ## Annotation selection
-fit <- iMAP(Zvalue,anno=annox,Var=Var,infor=infor,n=n,LSA=T)
+fit   <- iMAP(Zvalue, anno=annox, Var=Var, infor=infor, n=n, LSA=TRUE)
 
 
