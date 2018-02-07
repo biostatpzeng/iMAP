@@ -7,7 +7,7 @@ iMAP: integrative MApping of Pleiotropic association
 **[iMAP](https://github.com/biostatpzeng/iMAP/blob/master/iMAP.R)** is implemented in R statistical environment.
 
 ## Cite
-[Ping Zeng](https://github.com/biostatpzeng), Xingjie Hao and Xiang Zhou. Pleiotropic Mapping and Annotation Selection in Genome-wide Association Studies with Pe-nalized Gaussian Mixture Models. bioRxiv 2018. doi[10.1101/256461](https://www.biorxiv.org/content/early/2018/01/31/256461).
+[Ping Zeng](https://github.com/biostatpzeng), Xingjie Hao and Xiang Zhou. Pleiotropic Mapping and Annotation Selection in Genome-wide Association Studies with Pe-nalized Gaussian Mixture Models. bioRxiv 2018. [Doi: 10.1101/256461](https://www.biorxiv.org/content/early/2018/01/31/256461).
 ## Contact
 We are very grateful to any questions, comments, or bugs reports; and please contact [Ping Zeng](https://github.com/biostatpzeng) via zpstat@xzhmu.edu.cn or ~~pingzeng@umich.edu~~.
 
